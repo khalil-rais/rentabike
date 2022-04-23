@@ -1,0 +1,8 @@
+velo:
+  version: 1.x
+  css:
+    layout:
+      css/custom-freelancemodule.css: {}
+  js:
+    js/lib/OpenLayers.js: {preprocess: false}
+    js/map_inegration.js: {preprocess: false}

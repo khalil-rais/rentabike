@@ -1,0 +1,6 @@
+name:  Velo
+type:  module
+description:  'Handling Bike Reniting Module'
+package:  Custom Modules
+version:  1.0
+core:  8.x

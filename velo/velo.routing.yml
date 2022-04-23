@@ -1,0 +1,41 @@
+ajouter_point:
+  path:  '/velo/ajouter_point/{order_id}'
+  defaults:
+    _controller:  '\Drupal\velo\Controller\VeloController::ajouter_point'
+    _title: 'Ajouter une Coordonnee'
+  requirements:
+    _permission: 'access content'
+dbb_parcours:
+  path:  '/velo/parcours'
+  defaults:
+    _controller:  '\Drupal\velo\Controller\VeloController::dbb_parcours'
+    _title: 'Ride Map'
+  requirements:
+    _role: 'authenticated'
+dbb_debug:
+  path:  '/velo/dbb_debug'
+  defaults:
+    _controller:  '\Drupal\velo\Controller\VeloController::dbb_debug'
+    _title: 'Testing debugging features'
+  requirements:
+    _permission: 'access content'
+velo.multistep_one:
+  path: '/velo/multistep-one'
+  defaults:
+    _form: '\Drupal\velo\Form\Multistep\MultistepOneForm'
+    _title: 'Bike Booking'
+  requirements:
+    _permission: 'access content'
+velo.multistep_two:
+  path: '/velo/multistep-two'
+  defaults:
+    _form: '\Drupal\velo\Form\Multistep\MultistepTwoForm'
+    _title: 'Select a Tour (Optional)'
+  requirements:
+    _permission: 'access content'
+velo.dogs:
+  path: '/velo/skilling/dogs/{latitude}/{longitude}'
+  defaults:
+    _controller: '\Drupal\velo\Controller\VeloController::showDogInfo'
+  requirements:
+    _permission: 'access content'
