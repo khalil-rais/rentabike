@@ -1,0 +1,87 @@
+global-styling:
+  version: VERSION
+  header: true
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Roboto+Slab:400,700,300: { type: external }
+      //fonts.googleapis.com/css?family=Roboto:400,700: { type: external }
+      css/sliderlayer.css: {}
+      css/animate.css: {}
+      css/font-awesome.css: {}
+      css/custom-icon.css: {}
+      css/freelancemodule.css: {}	  
+      vendor/owl-carousel/assets/owl.carousel.min.css: {}
+      vendor/owl-carousel/assets/owl.theme.default.min.css: {}
+  js:
+    vendor/jquery-migrate.min.js: {}
+    js/bootstrap.js: {}
+    js/imagesloader.min.js: {}
+    vendor/jquery.easing.js: {}
+    vendor/jquery.appear.js: {}
+    vendor/count-to.js: {}
+    vendor/owl-carousel/owl.carousel.min.js: {}
+    vendor/waypoint.js: {}
+    vendor/wow.min.js: {}
+    vendor/masonry.pkgd.min.js: {}
+    vendor/isotope.pkgd.min.js: {}
+    vendor/jpreloader.min.js: {}
+    js/theme.plugins.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+
+huggi.skin.default:
+  css:
+    theme: 
+      css/template.css: {}
+      css/custom.css: {}
+      css/bootstrap.css: {}
+
+huggi.skin.green:
+  css:
+    theme: 
+      css/skins/green/template.css: {}
+      css/skins/green/bootstrap.css: {}
+
+huggi.skin.lilac:
+  css:
+    theme: 
+      css/skins/lilac/template.css: {}
+      css/skins/lilac/bootstrap.css: {}
+
+huggi.skin.orange:
+  css:
+    theme: 
+      css/skins/orange/template.css: {}
+      css/skins/orange/bootstrap.css: {}
+
+huggi.skin.red:
+  css:
+    theme: 
+      css/skins/red/template.css: {}
+      css/skins/red/bootstrap.css: {}
+
+huggi.skin.yellow:
+  css:
+    theme: 
+      css/skins/yellow/template.css: {}
+      css/skins/yellow/bootstrap.css: {}
+
+gavias-huggi-admin:
+  version: VERSION
+  css: 
+    theme: 
+      css/theme-settings.css: {}
+      vendor/colorpicker/css/colorpicker.css: {}
+  js:
+      vendor/colorpicker/js/colorpicker.js: {}
+      js/customize.js: {}
+
+maintenance_page:
+  version: VERSION
+  css:
+    theme:
+      css/maintenance-page.css: {}
+
